@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./js&css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Calculator</h1>
+      <div class="display">0</div>
+      <div class="buttons">
+        <button onclick="clearAll()" class="AC">AC</button>
+        <button onclick="deleteLastCharacter()">DEL</button>
+        <button onclick="applyGST()">GST</button>
+        <button onclick="appendToResult('+')">+</button>
+        <button onclick="appendToResult('1')">1</button>
+        <button onclick="appendToResult('2')">2</button>
+        <button onclick="appendToResult('3')">3</button>
+        <button onclick="appendToResult('-')">-</button>
+        <button onclick="appendToResult('4')">4</button>
+        <button onclick="appendToResult('5')">5</button>
+        <button onclick="appendToResult('6')">6</button>
+        <button onclick="appendToResult('*')">*</button>
+        <button onclick="appendToResult('7')">7</button>
+        <button onclick="appendToResult('8')">8</button>
+        <button onclick="appendToResult('9')">9</button>
+        <button onclick="appendToResult('/')">/</button>
+        <button onclick="appendToResult('0')">0</button>
+        <button onclick="appendToResult('.')">.</button>
+        <button onclick="appendToResult('%')" class="module">%</button>
+        <button onclick="calculateResult()" class="equal">=</button>
+      </div>
+    </div>
+    <script src="./js&css/script.js"></script>
+  </body>
+</html>
